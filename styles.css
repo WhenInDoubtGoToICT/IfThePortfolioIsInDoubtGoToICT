@@ -1,0 +1,83 @@
+header {
+    width: 100%;
+    position: relative;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-evenly;/*Makes sure that all the images are spread evenly on the top row*/
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+/*Makes sure all the images are coloured and spread evenly*/
+.tabs a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tabs img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+/*Set background colours for all the images*/
+.pycharm1 {
+    background-color: #26D961;
+}
+
+.heuristics1 {
+    background-color: #2645D9;
+}
+
+.figma1 {
+    background-color: #D9269E;
+}
+
+.htmlcss1 {
+    background-color: #D9BA26;
+}
+
+.tabs a {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.banner {
+    text-align: center;
+}
+/*Makes both the images the same size*/
+.ifelse1 img, .boolean1 img, .list1 img, .float1 img, .integer1 img, .string1 img, .python1 img {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    margin: 5px;
+}
+/*Used to separate the two parts to two sides*/
+.heuristicspart1, .heuristicspart2 {
+    float: left;        
+    width: 45%;         
+    margin-right: 5%;   
+    box-sizing: border-box;  
+}
+
+.wireframe, .mockup {
+    float: left;        
+    width: 45%;         
+    margin-right: 5%;   
+    box-sizing: border-box;  
+}
+
+.thisishtml, .thisiscss {
+    float: left;        
+    width: 45%;         
+    margin-right: 5%;   
+    box-sizing: border-box;  
+}
+
+
+
